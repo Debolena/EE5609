@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{\textbf{Matrix Theory: Assignment 1}}
+\author{\textbf{Debolena Basak}\\
+\textbf{PhD Artificial Intelligence}\\
+\textbf{Roll No.: AI20RESCH11003}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\textbf{\emph{Abstract}- This assignment solves a problem to find the slope of a line.}
+
+\section{Problem Statement}
+Find the slope of a line, which passes through
+the origin, and the mid-point of the line segment
+joining the points $P$ =
+$
+\left(\begin{array}{c}
+    0\\
+    -4
+\end{array}\right)
+$ and $B$ =
+$
+\left(\begin{array}{c}
+    8\\
+    0
+\end{array}\right)
+$.
+
+\section{Theory}
+The midpoint of two points $X$=
+$
+\left(\begin{array}{c}
+    x_{1}\\
+    x_{2}
+\end{array}\right)
+$ and $Y$ =
+$
+\left(\begin{array}{c}
+    y_{1}\\
+    y_{2}
+\end{array}\right)
+$ 
+is given by
+\begin{equation}
+    \frac{1}{2}
+\Bigg\{
+\left(\begin{array}{c}
+    x_{1}\\
+    x_{2}
+\end{array}\right)
+ +
+\left(\begin{array}{c}
+    y_{1}\\
+    y_{2}
+\end{array}\right)
+\Bigg\}
+\end{equation}
+Slope of a line joining any two points $X$ and $Y$ is given by 
+\begin{equation}
+    m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}
+\end{equation}
+
+\section{Solution}
+We are given two points $P$ and $B$. Let their mid-point be denoted by $Q$.
+
+\begin{equation*}
+    \therefore
+    Q=\frac{1}{2}\Bigg\{
+    \left(\begin{array}{c}
+    0\\
+    -4
+    \end{array}\right)
+    +
+    \left(\begin{array}{c}
+    8\\
+    0
+    \end{array}\right)\Bigg\}
+\end{equation*}
+\begin{equation*}
+    =\left(\begin{array}{c}
+    4\\
+    -2
+\end{array}\right)
+\end{equation*}
+
+\break
+We know, Origin=(0,0).
+
+Now, using(2), slope of the line passing through the origin and $Q$ is
+\begin{equation*}
+    m=\frac{-2-0}{4-0}
+    =-\frac{1}{2}
+\end{equation*}
+
+\end{document}
