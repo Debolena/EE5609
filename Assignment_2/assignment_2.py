@@ -1,4 +1,4 @@
-#Program to balance a chemical equation
+#Program to balance a chemical equation using echelon matrix
 
 import numpy as np
 import sympy
